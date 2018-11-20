@@ -5,15 +5,15 @@
 
     function drawChart() {
       var data = google.visualization.arrayToDataTable([
-        ['Year', 'Sales', 'Expenses'],
-        ['2004',  1000,      400],
-        ['2005',  1170,      460],
-        ['2006',  660,       1120],
-        ['2007',  1030,      540]
+        ['Year', 'Sales'],
+        ['1',  1000],
+        ['2',  1170],
+        ['3',  660],
+        ['4',  1030]
       ]);
 
       var options = {
-        title: 'Company Performance',
+        title: 'Histórico de pontuação dos jogadores',
         curveType: 'function',
         legend: { position: 'bottom' }
       };
