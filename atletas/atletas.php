@@ -18,7 +18,7 @@
 					        <div class="input-field col s12">
 					          <i class="material-icons prefix">search</i>
 					          <input type="text" id="autocomplete-input" class="autocomplete">
-					          <label for="autocomplete-input">Autocomplete</label>
+					          <label for="autocomplete-input">Pesqusiar Atleta</label>
 					        </div>
 					      </div>
 					    </div>

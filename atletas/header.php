@@ -20,7 +20,7 @@
 			<div class="navbar-fixed">
 	    		<nav>
 	      			<div class="nav-wrapper orange z-depth-4">
-	        			<a href="index2.html" class="brand-logo center">Cartola FC</a>
+	        			<a href="../index.php" class="brand-logo center">Cartola FC</a>
 	      			</div>
 	    		</nav>
 	  		</div>
