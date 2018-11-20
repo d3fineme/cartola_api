@@ -1,5 +1,5 @@
 <!--Footer-->
-		<footer class="page-footer orange">
+    <footer class="page-footer orange">
           <div class="container">
             <div class="row">
               <div class="col l6 s12">
@@ -26,17 +26,30 @@
         </footer>
 
 
-	    <!--Import jQuery before materialize.js-->
-	    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script type="text/javascript" src="../js/materialize.js"></script>
-      <script type="text/javascript" src="pont-times-rodada.js"></script>
       <script type="text/javascript">
         $(document).ready(function(){
           $('.carousel').carousel();
         });
       </script>
-	</div>
-	</body>
+      <script type="text/javascript">
+        $('input.autocomplete').autocomplete({
+          data: {
+            "Apple": null,
+            "Microsoft": null,
+            "Google": 'https://placehold.it/250x250'
+          },
+          limit: 20, // The max amount of results that can be shown at once. Default: Infinity.
+          onAutocomplete: function(val) {
+            // Callback function when value is autcompleted.
+          },
+          minLength: 1, // The minimum length of the input for the autocomplete to start. Default: 1.
+        });
+      </script>
+  </div>
+  </body>
 
 
 </html>
